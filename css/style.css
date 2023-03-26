@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:wght@500;700&family=Volkhov:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    min-height: 100vh; 
+    width: 100%;
+    background-image: url('/images/decore.png');
+    background-position: top right;
+    background-repeat: no-repeat;    
+}
+
+/* NavBar Styling starts here */
+
+.nav-bar {
+    /* outline: 1px solid red; */
+    display: flex;
+    height: 40px;
+    width: 1165px;
+    margin-top: 3rem;
+    margin-left: 6rem;
+    /* position: fixed; */
+}
+
+.nav-link {
+    display: flex;
+}
+
+.nav-link li {
+    padding-top: .7rem;
+    margin-left: 8.5rem;
+    list-style: none;  
+}
+
+.sign-up {
+    width: 102px;
+    height: 40px;
+    margin-left: 3.25rem;
+    color: #212832;
+    font-size: 1.1rem;
+    background-color: #FFF1DA;
+}
+
+.sign-up:hover {
+    cursor: pointer;
+    background-color: #212832;
+    color: #ffff;
+}
+
+select {
+    margin-top: .2rem;
+    margin-left: 2rem;
+    border: none;
+    outline: none;
+}
+
+select:hover {
+    cursor: pointer;
+    color: #F7CD73;
+}
+
+.nav-link a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 550;
+    color: #212832;
+    font-size: 1.1rem;
+}
+
+.nav-link a:hover {
+    color: #F7CD73;
+}
+
+/* NavBar Styling ends here */
+
+/* Hero Styling starts here */
+.hero-wrapper {
+    outline: 1px solid black;
+    width: 1200px;
+    height: 740px;
+    margin-left: 6rem;
+    display: flex;
+    margin-bottom: 6.1rem;
+}
+
+.description {
+    width: 550px;
+    height: 490px;
+    margin-top: 8rem;
+}
+
+.description h1 {
+    /* outline: 1px solid purple; */
+    width: 430px;
+    height: 30px;
+    color: #DF6951;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.description h2 {
+    width: 490px;
+    height: 260px;
+    font-family: 'Volkhov', serif;
+    font-weight: 700;
+    font-size: 4.7rem;
+    color: #181E4B;
+    letter-spacing: -0.04em;
+    line-height: 89px;
+    margin-bottom: 1.8rem;
+}
+
+.description p {
+    width: 465px;
+    height: 80px;
+    font-size: 1rem;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    color: #5E6282;
+    line-height: 30px;
+    margin-bottom: 2rem;
+}
+
+.cta {
+    display: flex;
+    width: 379px;
+    height: 60px;
+}
+
+.cta button {
+    width: 170px;
+    height: 60px;
+    background-color: #F1A501;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.1rem;
+    outline: none;
+    box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+}
+
+.cta object{
+    margin-top: -0.8rem;
+}
+
+.cta span {
+    font-style: 1rem;
+    color: #686D77;
+    width: 92px;
+    height: 26px;
+   margin-top: 5rem;
+    outline: 1px solid rebeccapurple;
+}
+
+.hero-bg {
+    width: 700px;
+    height: 720px;
+    /* outline: 1px solid red; */
+    margin-top: 1.1rem;
+    padding-left: 3rem;
+    background: url('/images/traveller.png') no-repeat;
+}
+/* Hero Styling ends here */
+
+/* Services styling starts */
+.service-wrapper {
+    width: 1200px;
+    height: 525px;
+    outline: 1px solid red;
+    margin-left: 6rem;
+}
+
+.title {
+    font-size: 1.1rem;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: #5E6282;
+    text-transform: uppercase;
+    width: 98px;
+    height: 27px;
+    margin: auto;
+    margin-bottom: 0.7rem;
+}
+
+.subtitle {
+    text-transform: capitalize;
+    font-family: 'Volkhov', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 2.8rem;
+    width: 500px;
+    height: 65px;
+    margin: auto;
+}
+
+.service-wrapper span {
+    width: 50px;
+    /* outline: 1px solid red; */
+    position: relative;
+    left: 65.5rem;
+    bottom: 6.5rem;
+    
+}
+
+.services-list {
+    display: flex;
+    justify-content: space-around;
+    outline: 1px solid red;
+    margin-top: -4rem;
+}
+
+.flex-item {
+    width: 260px;
+    height: 315px;
+    padding: 3.4rem;
+    text-align: center;
+    border-radius: 2rem;
+    position: relative;
+    box-shadow:0 2px 3px 0px rgba(0,0,0,0.25);
+}
+
+
+.flex-item h3 {
+    /* outline: 1px solid purple; */
+    font-size: 1.25rem;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.flex-item p {
+    /* outline: 1px solid red; */
+    width: 175px;
+    height: 78px;
+    font-size: 0.9rem;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    margin-top: 0.9rem;
+}
+
+
+/* Destination service  */
+.destination-wrapper {
+    width: 1200px;
+    height: 600px;
+    outline: 1px solid black;
+    margin-left: 6rem;
+    
+}
+.destination-title {
+    margin-top: 7rem;
+    width: 150px;
+    outline: 1px solid red;
+}
+
+.destination-flex {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3.7rem;
+}
+
+.card-container {
+    width: 315px;
+    height: 437px;
+    filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02)) drop-shadow(0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)) drop-shadow(0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)) drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01)) drop-shadow(0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)) drop-shadow(0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481));
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.card-container img {
+    width: 100%;
+}
+
+.country {
+    width: 267px;
+    height: 22px;
+    color: #5E6282;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 1.6rem;
+    margin-left: 2rem;
+}
+
+.card-container span {
+    padding-left: 6rem;
+}
+
+.icon {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.trip {
+    width: 90px;
+    height: 20px;
+    margin-left: -5rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: .8rem;
+    line-height: 124.5%;
+    color: #5E6282;
+}

@@ -21,7 +21,7 @@
           <ul class="nav-link">
             <li><a href="#services">Services</a></li>
             <li><a href="#destinations">Destinations</a></li>
-            <li><a href="#Booking">Booking</a></li>
+            <li><a href="#booking">Booking</a></li>
             <li><a href="">Login</a></li>
             <button class="sign-up">Sign Up</button>
             <select name="language" id="language">
@@ -136,13 +136,146 @@
       </section>
 
       <!-- Booking section -->
-      <section>
-        <div>
-          <h2>Easy and Fast</h2>
+      <section class="booking-wrapper" id="booking">
+        <div class="booking-caption">
+          <h2 class="booking-bold">Easy and Fast</h2>
           <h3>Book your next trip in 3 easy steps</h3>
 
+          <div>
+              <div class="booking-details">
+                <object data="./images/destination.svg"></object>
+              
+               <div class="flex-booking">
+                <h4 class="destination">Choose Destination</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                  Accusamus saepe.
+                </p>
+              </div>
+            </div>
+              <div class="booking-details">
+                <object data="./images/payment.svg"></object>
+             
+              <div class="flex-booking">
+                <h4>Make Payment</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                  Accusamus saepe.
+                </p>
+              </div>
+            </div>
+              <div class="booking-details">
+                <object data="./images/taxi.svg"></object>
+              
+              <div class="flex-booking" id="flex-airport">
+                <h4>Reach Airport on Selected Date</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                  Accusamus saepe.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="trip-wrapper">
+          <div class="trip-card">
+            <div>
+              <img src="/images/booking-img.jpg" alt="Lady standing">
+            <h3>Trip to Greece</h3>
+            <p>14-29 June| by Robbin</p>
+            </div>
+  
+            <div class="trip-container">
+              <div>
+                <object data="./images/leaf.svg"></object>
+              </div>
+              <div>
+                <object data="/images/map.svg"></object>
+              </div>
+              <div>
+                <object data="/images/send.svg"></object>
+              </div>
+            </div>
+  
+            <p><object data="/images/building1.svg"></object> 24 people going</p>
+          </div>
+          
+        </div>
+      </section>
+
+      <!-- Logo section -->
+      <section class="logo-wrapper">
+        <div class="axon">
+          <img src="./images/logo1.png" alt="Axon">
+        </div>
+        <div class="axon" id="jetstar">
+          <img src="./images/logo2.png" alt="Jetstar">
+        </div>
+        <div class="expedia">
+          <img src="./images/logo3.png" alt="Expedia">
+        </div>
+        <div class="qantas">
+          <img src="./images/logo4.png" alt="Qantas">
+        </div>
+        <div class="qantas">
+          <img src="./images/logo5.png" alt="Alitalia">
+        </div>
+      </section>
+
+      <!-- subscribe section -->
+      <section class="subscribe-wrapper">
+        <div class="inner-box">
+          <p>
+            Subscribe to get information, latest news and other
+            interesting offers about Jadoo
+          </p>
+
+          <form action="">
+            <input type="email" placeholder="Your email" required/>
+            <button onclick="Subscribe()">Subscribe</button> 
+          </form>
         </div>
       </section>
     </main>
+
+    <!-- footer  -->
+    <footer>
+      <div class="footer">
+        <div class="footer-flex">
+          <div class="flex-1">
+            <h2>Jadoo.</h2>
+            <p>Book your trip in minute, get full
+              Control for much longer.
+              </p>
+          </div>
+          <div class="flex-2">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Mobile</a></li>
+            </ul>
+          </div>
+          <div class="flex-2">
+            <h3>Contact</h3>
+            <ul>
+              <li><a href="#">Help/FAQ</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Affilates</a></li>
+            </ul>
+          </div>
+          <div class="flex-2">
+            <h3>More</h3>
+            <ul>
+              <li><a href="#">Airlinefees</a></li>
+              <li><a href="#">Airline</a></li>
+              <li><a href="#">Low fare tips</a></li>
+            </ul>
+          </div>
+        </div>
+        <p class="rights">All rights reserved@jadoo.co</p>
+      </div>
+    </footer>
+
+    ,<script src="./js/app.js"></script>
   </body>
 </html>
